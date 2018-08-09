@@ -1,0 +1,5 @@
+D:\Visual Studio Workspace\Examples\MvvmFoundation\bin\Debug\MvvmFoundation.dll
+D:\Visual Studio Workspace\Examples\MvvmFoundation\bin\Debug\MvvmFoundation.pdb
+D:\Visual Studio Workspace\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.csprojResolveAssemblyReference.cache
+D:\Visual Studio Workspace\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.dll
+D:\Visual Studio Workspace\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.pdb
