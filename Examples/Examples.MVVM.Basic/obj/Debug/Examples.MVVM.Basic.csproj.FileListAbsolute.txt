@@ -24,3 +24,32 @@ D:\Visual Studio Workspace\Examples\Examples.MVVM.Basic\obj\Debug\GeneratedInter
 D:\Visual Studio Workspace\Examples\Examples.MVVM.Basic\obj\Debug\App.baml
 D:\Visual Studio Workspace\Examples\Examples.MVVM.Basic\obj\Debug\Views\ForecastView.baml
 D:\Visual Studio Workspace\Examples\Examples.MVVM.Basic\obj\Debug\Views\WeatherView.baml
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\DataSystem\city.list.json
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\DataSystem\country.list.json
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\Examples.MVVM.Basic.exe.config
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\Examples.MVVM.Basic.exe
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\Examples.MVVM.Basic.pdb
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\MvvmFoundation.dll
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\MvvmFoundation.pdb
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.csprojAssemblyReference.cache
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\MainWindow.g.cs
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Views\ForecastView.g.cs
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Views\WeatherView.g.cs
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\App.g.cs
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic_MarkupCompile.cache
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic_MarkupCompile.lref
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\MainWindow.baml
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Resources\ComboBoxStyles.baml
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Views\ForecastView.baml
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Views\WeatherView.baml
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.g.resources
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.Properties.Resources.resources
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.csproj.GenerateResource.cache
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.csproj.CoreCompileInputs.cache
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.csproj.CopyComplete
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.exe
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Examples.MVVM.Basic.pdb
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\Resources\ButtonStyle.baml

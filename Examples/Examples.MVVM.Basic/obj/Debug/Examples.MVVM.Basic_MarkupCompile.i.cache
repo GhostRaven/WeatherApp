@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Visual Studio Workspace\Examples\Examples.MVVM.Basic\obj\Debug\
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\obj\Debug\
 Examples.MVVM.Basic
 none
 false
 DEBUG;TRACE
-D:\Visual Studio Workspace\Examples\Examples.MVVM.Basic\App.xaml
-41556175116
+D:\GitHub\WeatherApp\Examples\Examples.MVVM.Basic\App.xaml
+510975331
 
-321414553067
-161839128178
-MainWindow.xaml;Resources\ComboBoxStyles.xaml;Views\ForecastView.xaml;Views\WeatherView.xaml;
+34-957261212
+16-2063180093
+MainWindow.xaml;Resources\ButtonStyle.xaml;Resources\ComboBoxStyles.xaml;Views\ForecastView.xaml;Views\WeatherView.xaml;
 
 False
 

@@ -3,3 +3,9 @@ D:\Visual Studio Workspace\Examples\MvvmFoundation\bin\Debug\MvvmFoundation.pdb
 D:\Visual Studio Workspace\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.csprojResolveAssemblyReference.cache
 D:\Visual Studio Workspace\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.dll
 D:\Visual Studio Workspace\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.pdb
+D:\GitHub\WeatherApp\Examples\MvvmFoundation\bin\Debug\MvvmFoundation.dll
+D:\GitHub\WeatherApp\Examples\MvvmFoundation\bin\Debug\MvvmFoundation.pdb
+D:\GitHub\WeatherApp\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.csprojAssemblyReference.cache
+D:\GitHub\WeatherApp\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.csproj.CoreCompileInputs.cache
+D:\GitHub\WeatherApp\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.dll
+D:\GitHub\WeatherApp\Examples\MvvmFoundation\obj\Debug\MvvmFoundation.pdb

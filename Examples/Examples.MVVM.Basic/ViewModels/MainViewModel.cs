@@ -1,4 +1,5 @@
 ﻿using Examples.MVVM.Basic.Utilities;
+using Examples.MVVM.Basic.Utilities.Web;
 using MvvmFoundation;
 using Newtonsoft.Json;
 using System;
@@ -36,14 +37,12 @@ namespace Examples.MVVM.Basic.ViewModels
             set { _flagSource = value; base.RaisePropertyChanged(nameof(FlagSource)); }
         }
 
-
         private ObservableObject _actualViewModel;
         public ObservableObject ActualViewModel
         {
             get { return _actualViewModel; }
             set { _actualViewModel = value; base.RaisePropertyChanged(nameof(ActualViewModel)); }
         }
-
 
         public string CityName
         {
@@ -125,7 +124,7 @@ namespace Examples.MVVM.Basic.ViewModels
         }));
 
 
-        public MainViewModel()
+        public MainViewModel(IWebDataProvider webDataProvider)
         {
             LoadedCities = Tools.JsonDeserialize<List<City>>(@"DataSystem/city.list.json");
             Countries = Tools.JsonDeserialize<ObservableCollection<CountryInfo>>(@"DataSystem/country.list.json");
@@ -142,7 +141,6 @@ namespace Examples.MVVM.Basic.ViewModels
         {
             var result = await GetResponse(uri);
             Countries = (ObservableCollection<CountryInfo>)JsonConvert.DeserializeObject<ObservableCollection<CountryInfo>>(result);
-            //Console.WriteLine("YY");
         }
 
         public async void GetResponseForecast(string uri)
@@ -150,7 +148,6 @@ namespace Examples.MVVM.Basic.ViewModels
             var result = await GetResponse(uri);
             Forecast = (ForecastResponse)JsonConvert.DeserializeObject<ForecastResponse>(result);
             ActualViewModel = new ForecastViewModel(Forecast);
-            //Console.WriteLine("XX");
         }
 
         public async void GetResponseWeather(string uri)
@@ -158,7 +155,6 @@ namespace Examples.MVVM.Basic.ViewModels
             var result = await GetResponse(uri);
             Weather = (WeatherResponse)JsonConvert.DeserializeObject<WeatherResponse>(result);
             ActualViewModel = new WeatherViewModel(Weather);
-            //Console.WriteLine("ZZ");
         }
 
         public Task<string> GetResponse(string uri)

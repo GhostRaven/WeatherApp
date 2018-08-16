@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D801B924-73AA-412C-BC75-B28BB37DFA51}</ProjectGuid>
+    <ProjectGuid>{35003680-3FE6-4B54-A61B-2D49D96587E6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Examples.MVVM.Basic</RootNamespace>
-    <AssemblyName>Examples.MVVM.Basic</AssemblyName>
+    <RootNamespace>ColourViewer</RootNamespace>
+    <AssemblyName>ColourViewer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -34,9 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -58,32 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Models\Clouds.cs" />
-    <Compile Include="Models\CountryInfo.cs" />
-    <Compile Include="Models\Currency.cs" />
-    <Compile Include="Models\Language.cs" />
-    <Compile Include="Models\List.cs" />
-    <Compile Include="Models\Main.cs" />
-    <Compile Include="Models\RegionalBloc.cs" />
-    <Compile Include="Models\Sys.cs" />
-    <Compile Include="Utilities\Web\DefaultWebDataProvider.cs" />
-    <Compile Include="Utilities\Web\IWebDataProvider.cs" />
-    <Compile Include="Utilities\JsonConverters.cs" />
-    <Compile Include="Utilities\Tools.cs" />
-    <Compile Include="Models\Translations.cs" />
-    <Compile Include="Models\Weather.cs" />
-    <Compile Include="Models\ForecastResponse.cs" />
-    <Compile Include="Models\Rain.cs" />
-    <Compile Include="Models\WeatherResponse.cs" />
-    <Compile Include="Models\Wind.cs" />
-    <Compile Include="ViewModels\ForecastViewModel.cs" />
+    <Compile Include="ViewModels\ColourViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
-    <Compile Include="ViewModels\WeatherViewModel.cs" />
-    <Compile Include="Views\ForecastView.xaml.cs">
-      <DependentUpon>ForecastView.xaml</DependentUpon>
+    <Compile Include="Views\ColourView.xaml.cs">
+      <DependentUpon>ColourView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\WeatherView.xaml.cs">
-      <DependentUpon>WeatherView.xaml</DependentUpon>
+    <Compile Include="Views\TextLoadWindow.xaml.cs">
+      <DependentUpon>TextLoadWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -93,25 +71,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Models\City.cs" />
-    <Compile Include="Models\Coord.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Resources\ButtonStyle.xaml">
+    <Page Include="Views\ColourView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\ComboBoxStyles.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\ForecastView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\WeatherView.xaml">
+    <Page Include="Views\TextLoadWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -134,13 +102,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="DataSystem\city.list.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="DataSystem\country.list.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,9 +115,6 @@
       <Project>{90cd325b-3aae-4e31-a253-c39ea9ffe7d6}</Project>
       <Name>MvvmFoundation</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\phone-call.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

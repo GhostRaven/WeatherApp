@@ -1,5 +1,4 @@
-﻿using Examples.MVVM.Basic.Utilities.Web;
-using Examples.MVVM.Basic.ViewModels;
+﻿using ColourViewer.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -8,20 +7,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Examples.MVVM.Basic
+namespace ColourViewer
 {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
     {
-        MainViewModel viewModel;
-
         protected override void OnStartup(StartupEventArgs e)
         {
-            var webDataProvider = new DefaultWebDataProvider();
-
-            viewModel = new MainViewModel(webDataProvider);
+            var viewModel = new MainViewModel();
             var view = new MainWindow() { DataContext = viewModel };
             view.ShowDialog();
         }
